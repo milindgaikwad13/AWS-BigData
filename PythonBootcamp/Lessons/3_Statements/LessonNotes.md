@@ -1,11 +1,11 @@
 
 # Statements
 
-![ComparisonChart](images/Statements.png)
-![ComparisonChart](images/IF.png)
-![ComparisonChart](images/FOR.png)
+![ComparisonChart](Images/Statements.png)
+![ComparisonChart](Images/IF.png)
+![ComparisonChart](Images/For.png)
 ## While
-![ComparisonChart](images/while.png)
+![ComparisonChart](Images/while.png)
 
 ## Useful operators
 
