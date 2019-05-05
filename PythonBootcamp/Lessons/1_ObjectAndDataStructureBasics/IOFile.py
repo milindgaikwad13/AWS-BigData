@@ -72,3 +72,15 @@ with open('data/FileCreatedByPythonCode.txt', mode='w')  as my_new_file:
 with open('data/FileCreatedByPythonCode.txt', mode='r')  as my_new_file:
     contents = my_new_file.read()
     print(contents)
+
+
+
+# Reading line by line
+rows =0
+
+with open('/Users/mgaikwad/MGwork/VM_Shared/Win10Pro/Work/test2.csv', mode ='r')  as my_new_file:
+    for item in my_new_file:
+        print(item)
+        rows += 1
+
+print(rows)
