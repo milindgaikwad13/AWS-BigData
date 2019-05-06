@@ -17,6 +17,11 @@ print(a[3])
 
 print(a[-3])
 
+
+
+
+
+
 # slicing
 a = "abcdefghijk"
 
@@ -124,3 +129,20 @@ print(f"hello, name is {name}")
 
 #excercise
 print("{p} {r}{e}".format(p="python",r="Rules",e="!"))
+
+
+mystr = 'test Data'
+
+
+def myfunc(mystr):
+    returnStr =''
+    cnt =1
+    for i in mystr:
+        if( cnt%2  == 0):
+            returnStr += i.upper()
+        else:
+            returnStr += i.lower()
+        cnt +=1
+    return returnStr
+
+print(myfunc('this is a true data'))
