@@ -1,0 +1,5 @@
+
+
+## Teradata
+
+## Redshift
