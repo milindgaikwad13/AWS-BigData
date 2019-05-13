@@ -40,15 +40,28 @@ Workflow scheduler
 
 ## Hue
 
+Interface on hadoop to run hive and pig scripts
+Exploring HDFS
 
 ## Zookeeper
 
+Coordinating your cluster
+
+![Zookeeper](Images/Zookeeper_1.png)
+![Zookeeper](Images/Zookeeper.png)
 
 
 ## Hive/Hcatalog 
 
+* Metadata and table management system for Hadoop
+* Relational view of data
+* Serde ( eg. JSON) 
+* metastore
+* Supports HIVE DDL commands
+
 ## Solr
 
+Solr is an open source enterprise search platform
 
 
 
